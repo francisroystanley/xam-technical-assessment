@@ -1,0 +1,34 @@
+.container {
+  order: 1;
+  flex-grow: 1;
+  flex-basis: 70%;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ababab;
+  padding: 5px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.remove {
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  padding: 3px 10px;
+  background-color: #d4d4d4;
+}
+
+@media (min-width: 880px) {
+  .table {
+    order: 2;
+  }
+}

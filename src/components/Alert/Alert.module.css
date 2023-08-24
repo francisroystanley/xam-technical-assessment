@@ -1,0 +1,8 @@
+.alert {
+  margin-top: 15px;
+  padding: 15px 10px;
+  background-color: #fcb8b8;
+  color: red;
+  font-weight: bold;
+  width: 100%;
+}
